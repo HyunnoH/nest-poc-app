@@ -3,13 +3,13 @@ import { CreateNoticeDto } from './dto/create-notice.dto';
 import { UpdateNoticeDto } from './dto/update-notice.dto';
 
 @Injectable()
-export class NoticeService {
+export class NoticesService {
   create(createNoticeDto: CreateNoticeDto) {
     return 'This action adds a new notice';
   }
 
   findAll() {
-    return `This action returns all notice`;
+    return `This action returns all notices`;
   }
 
   findOne(id: number) {

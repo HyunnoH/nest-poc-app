@@ -3,13 +3,13 @@ import { CreateBoardDto } from './dto/create-board.dto';
 import { UpdateBoardDto } from './dto/update-board.dto';
 
 @Injectable()
-export class BoardService {
+export class BoardsService {
   create(createBoardDto: CreateBoardDto) {
     return 'This action adds a new board';
   }
 
   findAll() {
-    return `This action returns all board`;
+    return `This action returns all boards`;
   }
 
   findOne(id: number) {
